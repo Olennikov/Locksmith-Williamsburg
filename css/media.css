@@ -1,0 +1,149 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .contact_form > .form-control {
+        margin-top: 0;
+    }
+
+    #dlForm > input {
+        margin-top: 5px;
+    }
+
+    .phone_num {
+        font-family: 'RalewayRegular', sans-serif;
+        font-size: 18px;
+        padding-top: 8px;
+    }
+
+    .contact_form > .btn_no_brdr {
+        font-size: 14px;
+    }
+    hr {
+    margin-bottom: 20px;
+}
+/*ABOUT_US*/
+/*FOOTER*/
+.soc_row{
+    font-size:14px;
+}
+.p20{
+    padding-bottom:20px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .b_name > h1 {
+        font-size: 28px;
+    }
+
+    .b_name > h4 {
+        font-size: 16px;
+    }
+
+    .main_offer {
+        padding-top: 20px;
+    }
+
+        .main_offer > .btn_no_brdr {
+            font-size: 12.5px;
+        }
+
+        .main_offer > h1 {
+            font-size: 34px;
+            text-align: center;
+        }
+
+        .main_offer > p {
+            font-size: 14.5px;
+            padding-top: 10px;
+        }
+
+    .contact_form {
+        margin-top: 10px;
+    }
+
+    .phone_num {
+        font-family: 'RalewayRegular', sans-serif;
+        font-size: 24px;
+        padding-top: 8px;
+    }
+
+    /*WHY_US_BLOCK*/
+    .fa_icon {
+        font-size: 60px;
+    }
+
+    .round > h5 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .round > p {
+        display: none;
+    }
+
+    /*ABOUT_US*/
+    .review {
+    padding-top: 30px;
+}
+
+    /*FOOTER*/
+    .copy_txt{
+	font-size:14px;
+}
+    .call_btn{
+	bottom: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+}
+.under_btn_call{
+	bottom: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+}
+    .up_img > a > img[alt=up] {
+    bottom: 10px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
